@@ -12,7 +12,9 @@ conda create -n py37_32 python=3.7 anaconda
 설치가 완료되면 이제 32bit 버전의 파이썬을 사용할 수 있습니다. 다음과 같이 좀전에 설치한 파이썬 32bit 환경을 활성화 시키면 됩니다.
 
 activate py37_32
+
 프롬프트 커맨드 라인 처음에 (py37_32)가 표시되어 있으면 활성화가 제대로 된 것입니다. 이 환경을 비활성화 시키려면 다음과 같이 명령하면 됩니다.
 
 deactivate
+
 참고로 리눅스 운영체제에서는 source activate py37_32, source deactivate와 같이 명령을 줘야 합니다.
